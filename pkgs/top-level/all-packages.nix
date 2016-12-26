@@ -4542,6 +4542,8 @@ in
 
   nix-zsh-completions = callPackage ../shells/nix-zsh-completions { };
 
+  zsh-antigen = callPackage ../shells/zsh-antigen {};
+
   zsh-completions = callPackage ../shells/zsh-completions { };
 
   zsh-prezto = callPackage ../shells/zsh-prezto { };
